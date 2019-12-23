@@ -1,0 +1,76 @@
+body {
+    line-height: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    background-color: rgb(15, 201, 201) !important;
+    border-bottom: black 7px solid !important;
+    text-align: center !important;
+}
+
+#topTitle {
+    font-size: 45px !important;
+}
+
+#secondaryTitle {
+    font-size: 20px !important;
+}
+
+#dateToday {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.activities {
+    border: 1px solid black;
+}
+
+.past {
+    background-color: lightgray;
+}
+
+.present {
+    background-color: rgb(255, 255, 138);
+}
+
+.future {
+    background-color: teal;
+}
+
+.eachHourBlock {
+    text-align: center;
+    border-radius: 20px;
+}
+
+.saveBtn {
+    width: 80px;
+    /* height: 50px; */
+    background-color: rgb(60, 241, 247)!important;
+    border: 1px rgb(0, 0, 0) dashed !important;
+}
+
+
+/* 
+
+
+   <div class="jumbotron">
+        <h1 id="topTitle">Work Day Scheduler</h1>
+        <p id="secondaryTitle">A simple calendar app for scheduling your work day</p>
+
+        <p class="endTitle" id="dateToday">
+
+
+
+
+
+<div class="row eachHourBlock" id="3pm">
+<div class="col-md-2 hour">
+    3 PM
+</div>
+<textarea class="col-md-8 activities">
+   
+    </textarea>
+<button class="saveBtn btn cal-md-1"></button>
+
+</div> */
