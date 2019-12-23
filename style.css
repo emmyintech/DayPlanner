@@ -15,11 +15,19 @@ body {
 
 #secondaryTitle {
     font-size: 20px !important;
+    font-style: italic;
 }
 
 #dateToday {
-    font-size: 20px !important;
+    font-size: 30px !important;
     font-weight: bold !important;
+}
+
+.hour {
+    font-weight: bold !important;
+    padding-top: 10px;
+    border-top: dashed 1px black;
+    border-bottom: dashed 1px rgb(60, 241, 247);
 }
 
 .activities {
@@ -48,29 +56,5 @@ body {
     /* height: 50px; */
     background-color: rgb(60, 241, 247)!important;
     border: 1px rgb(0, 0, 0) dashed !important;
+    font-weight: bold !important;
 }
-
-
-/* 
-
-
-   <div class="jumbotron">
-        <h1 id="topTitle">Work Day Scheduler</h1>
-        <p id="secondaryTitle">A simple calendar app for scheduling your work day</p>
-
-        <p class="endTitle" id="dateToday">
-
-
-
-
-
-<div class="row eachHourBlock" id="3pm">
-<div class="col-md-2 hour">
-    3 PM
-</div>
-<textarea class="col-md-8 activities">
-   
-    </textarea>
-<button class="saveBtn btn cal-md-1"></button>
-
-</div> */
